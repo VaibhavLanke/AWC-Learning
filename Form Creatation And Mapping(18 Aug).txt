@@ -1,0 +1,51 @@
+
+
+Form Creatation :
+  
+  1. Go to project tree .Inside project tree we can create process inside local tree.Then double click in process.
+     then go for form list inside process,
+	  
+  2. There are two importatnt part :
+                     1. form tool : this is used to design the form 
+					 2. DataClass Field : this is used to mapping the filed of the form 
+					 
+   3. First creatae the form then create the table inside process view 
+   
+ Table Creatation :
+ 
+   4. Inside process view  go to the options  
+            1. we can create define table then ceate the table and inside table two field are compulsary 
+			         i.itemindex 
+					 ii.itemtype 
+					  Both are compulsory and mentain as primary key each and every table creatation 
+    5. Then we can create another field same name for form label because mapping time there is no confusion  and save as same version .
+	
+Table & Form mapping :
+	6. After creating table go for form view 
+	                 i. To generate mapping.All table field is present inside dataclass field 
+					 Fiest select the field inside form then select databse field inside dataclass field.
+     
+					 
+				
+				
+Complex Table Creatation :
+             1. Option : Define table  table name is for ex : cmplex_q_po_tesing
+			 2. Inside name insertionorserid is complusary  to every table and type of this is long and and this is complusary primary .
+			 3. pinstanceid is also complusary then add column inside the form of line details.
+			 4. Save as same version .
+			 5. Then go for option then go for complex type 
+             6. Then create structure eg : cmplex_po_testing. and add member inside complex type and form 	field.		 
+			 7. Save the process .
+			 8. Then go for again option and inside option go for queue variable then insert name eg: q_po_testing and type is complex table .
+			 9.Then add .
+			 10.Then click for defining mapping and select complex table eg:cmplex_po_testing.
+			 11. define mapping .
+			 12. Define relation then click on parent table field and select processinstanceid it is complusary each and every table .
+			 13. Child table field is pinstanceid .
+			 14. Ok 
+			 15. Save .
+			 16. Inside form select table of line details and mapping queue testing eg:q_po_testing .
+			 17. Go to table property and inside property go to the colunm and select colunm and and select the associsite field. and select associate control of field name.
+			 Then click on modify .
+			 18. Save .
+			 
